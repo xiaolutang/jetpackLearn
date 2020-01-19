@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="FirstFragment"
+        android:textColor="#000"
+        android:textSize="28sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/jump_to_second_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="跳转到SecondFragment"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#cfd"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/jump_to_second_fragment_with_ags"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="带参数跳转到SecondFragment"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#cfd"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
